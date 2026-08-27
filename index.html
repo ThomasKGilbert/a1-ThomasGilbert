@@ -3,18 +3,45 @@
   <head>
     <title>CS4241 Assignment 1</title>
     <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
   </head>
+  <style>
+    body {
+      background-color: aliceblue;
+      font-family: 'Schibsted Grotesk', sans-serif;
+    }
+
+    footer{
+      text-align: center;
+    }
+
+    table{
+      border-collapse: collapse;
+    }
+
+    td, th {
+      border: 1px solid black;
+      text-align: left;
+      padding: 4px;
+    }
+
+  </style>
   <body>
-    <h1>Information about Thomas Gilbert</h1>
-    <p>
-      Thomas Gilbert
-    </p>
-    <p>
-      Computer Science, Class of 2027
-    </p>
-    <p>
+    <header>
+      <h1>Information about Thomas Gilbert</h1>
+      <p>
+        <b>Thomas Gilbert</b>
+      </p>
+      <p>
+        Computer Science, Class of 2027
+      </p>
+      <img src="florence.jpeg" alt="Thomas Image" width="400" height="300"/>
+    </header>
+    <h2>
       Completed Courses:
-    </p>
+    </h2>
     <ul>
       <li>CS 1101</li>
       <li>CS 2102</li>
@@ -29,14 +56,32 @@
       <li>CS 3733</li>
     </ul>
 
-    <h2>Experience</h2>
-    <p>
-      Programming Experience
-    </p>
-    <ul>
-      <li>JS: Some</li>
-      <li>HTML: Some</li>
-      <li>CSS: Some</li>
-    </ul>
+    <h2>Programming Experience</h2>
+
+    <table>
+      <tr>
+        <th>Programming Language</th>
+        <th>Experience</th>
+      </tr>
+      <tr>
+        <td>JS</td>
+        <td>Some</td>
+      </tr>
+      <tr>
+        <td>HTML</td>
+        <td>Some</td>
+      </tr>
+      <tr>
+        <td>CSS</td>
+        <td>Some</td>
+      </tr>
+    </table>
+
+    <footer>
+      <p>
+        Author: Thomas Gilbert <br />
+        <a href="mailto:tkgilbert@wpi.edu">tkgilbert@wpi.edu</a>
+      </p>
+    </footer>
   </body>
 </html>
