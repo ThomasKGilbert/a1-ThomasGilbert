@@ -2,7 +2,7 @@ Readme
 ===
 
 Thomas Gilbert
-http://a1-charlieroberts.onrender.com (UPDATE LINK)
+https://a1-thomasgilbert.onrender.com/
 
 This project shows a brief summary of Thomas Gilbert as a student at WPI. The project is in the form of an HTML web page that has been styled using CSS. The webpage notes my class and major as well as a list of my completed CS courses thus far. Further, it displays a table of relevant programming languages and the experience I have with each one. An image of myself is displayed and a link to my email is provided at the bottom of the page.
 
